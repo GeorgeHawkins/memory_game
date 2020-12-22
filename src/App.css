@@ -1,0 +1,88 @@
+:root {
+  --Black : #555;
+  --Spearmint: #94C973;
+  --Seafoam: #2F5233;
+  --Kelly: #B1D8B7;
+  --Lime: #76B947;
+  --Grey: #ccc;
+  --LightGrey: #ebebeb;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  background: var(--Lime);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.Main {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+  max-width: 700px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.GameSquare {
+  width: 6rem;
+  height: 6rem;
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #ccc;
+}
+
+.GameSquare:hover {
+  background-color: var(--Kelly);
+  cursor: pointer;
+}
+
+.StartButton {
+  display: inline-block;
+  border: 2px var(--Lime) solid;
+  background: #fff;
+  color: var(--Lime);
+  font-weight: bold;
+  padding: 7px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 10rem;
+  max-width: 140px;
+}
+
+.StartRow {
+  width: 10rem;
+  max-width: 140px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.CheatButton {
+  display: inline-block;
+  border: 2px var(--Lime) solid;
+  background: #fff;
+  color: var(--Lime);
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.Stats {
+  display: inline-block;
+  width: 25%;
+  padding: 10px 10px;
+
+}
